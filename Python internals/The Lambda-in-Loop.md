@@ -5,8 +5,6 @@
 Python closures capture variables by reference, not by value.
 This causes a subtle but serious bug when using lambda or inner functions inside loops.
 
-Many developers — even experienced ones — get this wrong.
-
 The Bug
 
 Consider this code:
